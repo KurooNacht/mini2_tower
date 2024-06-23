@@ -2,7 +2,7 @@ import SwiftUI
 import SceneKit
 
 struct ContentView: View {
-    @StateObject private var viewModel = ContentViewModel(scene: "art.scnassets/tower_autumn.scn")
+    @StateObject private var viewModel = ContentViewModel(scene: "art.scnassets/towerLayer1.scn")
     
     
     var body: some View {
